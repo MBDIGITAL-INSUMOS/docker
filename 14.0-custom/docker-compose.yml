@@ -11,7 +11,7 @@ services:
         - ./postgresql:/var/lib/postgresql/data
 
   odoo:
-    image: mbanega/odoo:14.00
+    image: mbanega/odoo:14.0
     depends_on:
       - db
     ports:
