@@ -15,7 +15,7 @@ services:
     depends_on:
       - db
     ports:
-      - "1469:8069"
+      - "8069:8069"
     expose:
       - "8069"
     tty: true
