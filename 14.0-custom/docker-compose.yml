@@ -6,7 +6,7 @@ services:
       - POSTGRES_PASSWORD=odoo
       - POSTGRES_USER=odoo
       - POSTGRES_DB=postgres
-    restart: always             # run as a service
+        #restart: always             # run as a service
     volumes:
         - ./postgresql:/var/lib/postgresql/data
 
@@ -28,4 +28,4 @@ services:
     volumes:
       - ./addons:/mnt/extra-addons
       - ./etc:/etc/odoo
-    restart: always             # run as a service
+        #restart: always             # run as a service
